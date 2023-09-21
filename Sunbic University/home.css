@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.header{
+    width: 100vw;
+    height: 60px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border-bottom: 5px solid yellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    position: fixed;
+    
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 3rem;
+    
+    width: 16vw;
+    height: 35px;
+    color: white;
+    border-radius: 25px;
+    /* background-color: white; */
+
+}
+
+#form:hover, #home:hover, #info:hover{
+    width: 7rem;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#home, #form, #info{
+    text-decoration: none;
+    color: white;
+    padding-right: 1rem;
+}
+
+.left{
+    width: 13vw;
+    height: 35px;
+    border-radius: 25px;
+    color: black;
+    background-color: white;
+    padding-left: 1rem;
+}
+
+#name, #home, #form, #info{
+    font-size: 1.2rem;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10rem 2rem 0rem 2rem;
+    font-size: 1.2rem;
+}
+
+#title-1{
+    color: brown;
+}
+
+.content-left-1{
+    padding-right: 4rem;
+}
+
+.content-right-1 img{
+    width: 40vw;
+}
+
+.content-right-1 img:hover{
+    width: 60vw;
+}
+
+#skills-heading{
+    width: 30vw;
+    height: 50px;
+    color: yellow;
+    background-color: black;
+    border-radius: 25px;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    padding: 7rem 2rem 7rem 2rem;
+    text-align: center;
+}
+
+.skills-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 2rem;
+}
+
+.footer{
+    padding-top: 6rem;
+}
+
+.image_footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.facebook, .linkedin, .instagram{
+    padding-right: 1rem;
+}
+
+#copyright{
+    padding-top: 1rem;
+}
+
+.footer{
+    width: 98.9vw;
+    height: 155px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border-top: 5px solid yellow;
+    padding-top: 1.5rem;
+}

@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.header{
+    width: 100vw;
+    height: 60px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border-bottom: 5px solid yellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    position: fixed;
+    
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 2rem;
+    
+    width: 16vw;
+    height: 35px;
+    color: white;
+    border-radius: 25px;
+    /* background-color: white; */
+
+}
+
+#form:hover, #home:hover, #info:hover{
+    width: 7rem;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#home, #form, #info{
+    text-decoration: none;
+    color: white;
+}
+
+.left{
+    width: 13vw;
+    height: 35px;
+    border-radius: 25px;
+    color: black;
+    background-color: white;
+    padding-left: 1rem;
+}
+
+#name-sunbic, #home, #form, #info{
+    font-size: 1.2rem;
+}
+
+#contactform-heading{
+    font-size: 1.8rem;
+    color: black;
+}
+
+.contactform{
+    background-color: white;
+    padding: 8rem 20rem 6rem 4rem;
+}
+
+#labelname,#labelemail,#labellinkedinform, #labelcomments{
+    font-size: 1.2rem;
+}
+
+#alasan{
+    font-size: 1rem;
+}
+
+#name,#email,#linkedinform{
+    color: black;
+    font-size: 1rem;
+    width: 50rem;
+    padding: 0.4rem;
+    height:1.5rem;
+    border-radius: 0.25rem;
+}
+
+#comments{
+    color: black;
+    font-size: 1rem;
+    width: 50rem;
+    padding: 0.4rem;
+    border-radius: 0.25rem;
+}
+
+#submit{
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-color: #0d6efd;
+    padding: 0.5rem 0.75rem;
+    border-radius: 10%;
+}
+
+
+
+
+
+
+
+.footer{
+    padding-top: 6rem;
+}
+
+.image_footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.facebook, .linkedin, .instagram{
+    padding-right: 1rem;
+}
+
+#copyright{
+    padding-top: 1rem;
+}
+
+.footer{
+    width: 98.9vw;
+    height: 155px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border-top: 5px solid yellow;
+    padding-top: 1.5rem;
+}
